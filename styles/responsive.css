@@ -19,7 +19,8 @@
     margin-top: 90px;
   }
 }
-/* end 550px */
+/* end 550px &10240px */
+
 @media (min-width: 1025px) {
   .cover-section {
     flex-direction: row-reverse;
