@@ -22,6 +22,10 @@ header h3 {
 .cover img {
   width: 202px;
   height: 190px;
+  transition: transform 2.2s;
+}
+.cover img:hover {
+  transform: scale(1.4);
 }
 .cover h1 {
   font-family: "Poppins", sans-serif;
