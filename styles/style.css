@@ -1,0 +1,44 @@
+/* some fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+header h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #3a3a3a;
+  font-weight: 700;
+}
+/* main style */
+.cover img {
+  width: 202px;
+  height: 190px;
+}
+.cover h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+.cover p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.preebook-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 24px;
+  border-radius: 41px;
+  width: 194px;
+  height: 44px;
+  background-color: #e02c6d;
+  color: #ffffff;
+}
+.preebook-button a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.fa-arrow-right {
+  margin: 0 8px;
+}
