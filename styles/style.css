@@ -107,3 +107,24 @@ header h3 {
   font-weight: 400;
   color: #787885;
 }
+.see-more {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 32px;
+}
+.see-more a {
+  color: #e02c6d;
+  text-decoration: none;
+}
+/* support area style */
+
+.support-section .section-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+}
+.support-option a {
+  text-decoration: none;
+}
