@@ -53,9 +53,13 @@ header h3 {
 .fa-arrow-right {
   margin: 0 8px;
 }
+.popular-collection {
+  margin-top: 100px;
+}
 /* popular collection style */
 .popular-collection .section-title {
   font-family: "Poppins", sans-serif;
+  text-align: center;
   font-size: 16px;
   font-weight: 600;
 }
@@ -124,11 +128,18 @@ header h3 {
 .support-section .section-title {
   font-family: "Poppins", sans-serif;
   font-size: 22px;
+  display: flex;
+  justify-content: center;
 }
 .support-option {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
-.support-option a {
+.option {
+  text-align: center;
+}
+.option a {
   text-decoration: none;
+  color: #e02c6d;
+  font-weight: bold;
 }
