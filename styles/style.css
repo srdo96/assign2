@@ -60,9 +60,10 @@ header h3 {
   font-weight: 600;
 }
 .product-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  flexg
 }
 .product {
   display: flex;
@@ -70,7 +71,6 @@ header h3 {
   align-items: center;
   width: 329px;
   height: 476px;
-  border: 3px solid red;
 }
 
 .product-name {
