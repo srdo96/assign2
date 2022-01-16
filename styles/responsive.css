@@ -1,4 +1,4 @@
-@media (min-width: 550px) and (max-width: 1000px) {
+@media (min-width: 550px) and (max-width: 1024px) {
   .popular-collection .section-title {
     font-size: 20px;
   }
@@ -20,8 +20,11 @@
   }
 }
 /* end 550px */
-@media (min-width: 1001px) {
+@media (min-width: 1025px) {
   .product-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .support-option {
     grid-template-columns: repeat(3, 1fr);
   }
 }
