@@ -42,9 +42,10 @@ header h3 {
   text-align: center;
 }
 .preebook-button {
-  display: flex;
+  margin-left: 0px;
+  /* display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: flex-start; */
   padding: 10px 24px;
   border-radius: 41px;
   width: 194px;
