@@ -21,6 +21,19 @@
 }
 /* end 550px */
 @media (min-width: 1025px) {
+  .cover-section {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 165px;
+  }
+  .cover-info {
+    text-align: start;
+  }
+  .cover p {
+    text-align: start;
+  }
   .product-list {
     grid-template-columns: repeat(3, 1fr);
   }

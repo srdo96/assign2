@@ -14,7 +14,7 @@ header h3 {
   flex-direction: column;
   justify-content: center;
 } */
-.cover {
+.cover-section {
   display: flex;
   flex-direction: column;
   align-items: center;
