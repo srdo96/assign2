@@ -1,5 +1,6 @@
 /* some fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 header h3 {
   font-family: "Poppins", sans-serif;
@@ -8,6 +9,11 @@ header h3 {
   font-weight: 700;
 }
 /* main style */
+.cover-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .cover img {
   width: 202px;
   height: 190px;
@@ -21,6 +27,10 @@ header h3 {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 500;
+  text-align: center;
+}
+.cover-section {
+  text-align: center;
 }
 .preebook-button {
   display: flex;
@@ -32,13 +42,45 @@ header h3 {
   height: 44px;
   background-color: #e02c6d;
   color: #ffffff;
+  border: none;
 }
 .preebook-button a {
   text-decoration: none;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   color: #ffffff;
 }
 .fa-arrow-right {
   margin: 0 8px;
+}
+/* popular collection style */
+.popular-collection .section-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.product-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+.price-tag {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.fa-star {
+  font-size: 10px;
+  color: #fb8200;
+}
+.ratting-no {
+  font-size: 14px;
+  padding-left: 5px;
+  font-weight: 500;
+}
+.product-info p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #787885;
 }
