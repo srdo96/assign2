@@ -1,10 +1,11 @@
-@media (min-width: 550px) {
+@media (min-width: 550px) and (max-width: 1000px) {
   .popular-collection .section-title {
     font-size: 20px;
   }
   .product-list {
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 2%;
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
   }
   .product {
     width: 270px;
@@ -14,8 +15,14 @@
     width: 240px;
     height: 196px;
   }
+  .support-section .section-title {
+    margin-top: 90px;
+  }
 }
 /* end 550px */
-@media (min-width: 972px) {
+@media (min-width: 1001px) {
+  .product-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
-/* end 972px */
+/* end 1001px */
