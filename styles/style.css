@@ -125,6 +125,10 @@ header h3 {
   font-family: "Poppins", sans-serif;
   font-size: 22px;
 }
+.support-option {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 .support-option a {
   text-decoration: none;
 }
